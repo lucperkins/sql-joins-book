@@ -1,1 +1,1 @@
-FROM gitpod/workspace-postgres:2022-05-25-08-50-33
+FROM gitpod/workspace-postgresql:2022-05-25-08-50-33
