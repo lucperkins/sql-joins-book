@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS orders;
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
@@ -17,6 +18,9 @@ CREATE TABLE orders (
 );
 
 INSERT INTO orders (user_id, data) VALUES
-  (1, '{"item": "Tickle Me Elmo"}'),
-  (2, '{"item": "GI Joe"}'),
-  (3, '{"item": "Tonka Truck"}');
+  (1, '{"item": "tickle_me_elmo"}'),
+  (2, '{"item": "gi_joe_cobra"}'),
+  (2, '{"item": "tickle_me_elmo"}'),
+  (2, '{"item": "kid_sister"}'),
+  (3, '{"item": "tonka_truck"}'),
+  (3, '{"item": "my_buddy"}');
